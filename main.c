@@ -117,6 +117,7 @@ static void tick_timer_handler(void *p_context)
 		NRF_LOG_INFO("Hello");
 }
 
+
 /**@brief Function for assert macro callback.
  *
  * @details This function will be called in case of an assert in the SoftDevice.
@@ -605,7 +606,9 @@ int main(void)
     conn_params_init();
 
     // Start execution.
-    NRF_LOG_INFO("Debug logging for UART over RTT started.");
+    NRF_LOG_INFO("Debug");
+	
+	
     advertising_start();
 
     // Enter main loop.
