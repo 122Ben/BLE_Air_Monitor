@@ -606,7 +606,7 @@ int main(void)
     conn_params_init();
 
     // Start execution.
-    NRF_LOG_INFO("Debug");
+    NRF_LOG_INFO("Debug huhu");
 	
 	
     advertising_start();
